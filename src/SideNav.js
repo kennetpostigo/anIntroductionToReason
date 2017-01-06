@@ -26,48 +26,48 @@ class SideNav extends Component {
           </div>
           <ul>
             <li>
-              <Link to="/">Introduction</Link>
+              <Link to="/anIntroductionToReason">Introduction</Link>
             </li>
             <li>
-              <Link to="/getupandrunning">Get Up & Running</Link>
+              <Link to="/anIntroductionToReason/getupandrunning">Get Up & Running</Link>
             </li>
             <li>
-              <Link to="/corelanguage">Core Language</Link>
+              <Link to="/anIntroductionToReason/corelanguage">Core Language</Link>
               <ul>
                 <li>
-                  <Link to="/corelanguage/functions">Functions</Link>
+                  <Link to="/anIntroductionToReason/corelanguage/functions">Functions</Link>
                 </li>
                 <li>
-                  <Link to="/corelanguage/records">Records</Link>
+                  <Link to="/anIntroductionToReason/corelanguage/records">Records</Link>
                 </li>
                 <li>
-                  <Link to="/corelanguage/objects">Objects</Link>
+                  <Link to="/anIntroductionToReason/corelanguage/objects">Objects</Link>
                 </li>
                 <li>
-                  <Link to="/corelanguage/lists">Lists</Link>
+                  <Link to="/anIntroductionToReason/corelanguage/lists">Lists</Link>
                 </li>
                 <li>
-                  <Link to="/corelanguage/tuples">Tuples</Link>
+                  <Link to="/anIntroductionToReason/corelanguage/tuples">Tuples</Link>
                 </li>
                 <li>
-                  <Link to="/corelanguage/modules">Modules</Link>
+                  <Link to="/anIntroductionToReason/corelanguage/modules">Modules</Link>
                 </li>
                 <li>
-                  <Link to="/corelanguage/functors">Functors</Link>
+                  <Link to="/anIntroductionToReason/corelanguage/functors">Functors</Link>
                 </li>
               </ul>
             </li>
             <li>
-              <Link to="/types">Types</Link>
+              <Link to="/anIntroductionToReason/types">Types</Link>
               <ul>
                 <li>
-                  <Link to="/types/readingtypes">Reading Types</Link>
+                  <Link to="/anIntroductionToReason/types/readingtypes">Reading Types</Link>
                 </li>
                 <li>
-                  <Link to="/types/typealiases">Type Aliases</Link>
+                  <Link to="/anIntroductionToReason/types/typealiases">Type Aliases</Link>
                 </li>
                 <li>
-                  <Link to="/types/variants">Variants</Link>
+                  <Link to="/anIntroductionToReason/types/variants">Variants</Link>
                 </li>
               </ul>
             </li>

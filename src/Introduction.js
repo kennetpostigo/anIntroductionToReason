@@ -12,14 +12,14 @@ class Introduction extends React.Component {
         <div className="header">
           <div className="row">
             <p>Intro To Reason |
-              <a href="http://github.com/kennetpostigo/anIntroductionToReason"> Github
+              <a target="blank" href="http://github.com/kennetpostigo/anIntroductionToReason"> Github
               </a>
             </p>
           </div>
         </div>
         <div className="contentContainer">
           <p>
-            <a href="http://facebook.github.io/reason/">Reason</a> is a new frontend and developer experience built on the OCaml programming language. The goal of Reason is to harness the decades of research that went into OCaml and extend its reach to all kinds of developers.
+            <a target="blank" href="http://facebook.github.io/reason/">Reason</a> is a new frontend and developer experience built on the OCaml programming language. The goal of Reason is to harness the decades of research that went into OCaml and extend its reach to all kinds of developers.
           </p>
 
           <p>This book will:</p>
@@ -57,10 +57,10 @@ class Introduction extends React.Component {
 
           <ul>
             <li>
-              <a href="https://discordapp.com/invite/reasonml">Discord</a>
+              <a target="blank" href="https://discordapp.com/invite/reasonml">Discord</a>
             </li>
             <li>
-              <a href="http://stackoverflow.com/questions/tagged/reason">StackOverFlow</a>
+              <a target="blank" href="http://stackoverflow.com/questions/tagged/reason">StackOverFlow</a>
             </li>
           </ul>
         </div>

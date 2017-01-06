@@ -17,8 +17,8 @@ class Variants extends React.Component {
           </p>
           <blockquote>
             <p>
-              Note: Variants are sometimes called Union types or <a href="https://en.wikipedia.org/wiki/Tagged_union">tagged unions</a>.
-              Some communities call them <a href="https://en.wikipedia.org/wiki/Algebraic_data_type">ADTs</a>.
+              Note: Variants are sometimes called Union types or <a target="blank" href="https://en.wikipedia.org/wiki/Tagged_union">tagged unions</a>.
+              Some communities call them <a target="blank" href="https://en.wikipedia.org/wiki/Algebraic_data_type">ADTs</a>.
             </p>
           </blockquote>
           <h2>Filtering a Todo List</h2>
@@ -477,7 +477,7 @@ class Variants extends React.Component {
           <h2>Languages</h2>
           <p>
             We can even model a programming language as data if we want to go
-            really crazy! In this case it is one that only deals with <a href="https://en.wikipedia.org/wiki/Boolean_algebra#Operations">Boolean algebra</a>:
+            really crazy! In this case it is one that only deals with <a target="blank" href="https://en.wikipedia.org/wiki/Boolean_algebra#Operations">Boolean algebra</a>:
           </p>
           <CodeHighlighter>
             {

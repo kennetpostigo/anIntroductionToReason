@@ -10,7 +10,7 @@ class ReadingTypes extends React.Component {
         <div className="contentContainer">
           <h1>Reading Types</h1>
           <p>
-            In the <Link to="/corelanguage">Core Language section</Link> of this book,
+            In the <Link to="/anIntroductionToReason/corelanguage">Core Language section</Link> of this book,
             we ran a bunch of code in the REPL. Well, we are going to do it again,
             but now with an emphasis on the types that are getting spit out. So
             type fire up your REPL again in your terminal with <code>npm run top</code>.
@@ -283,7 +283,7 @@ class ReadingTypes extends React.Component {
           </CodeHighlighter>
           <p>
             This is called partial application. It lets us
-            use <a href="https://caml.inria.fr/pub/docs/manual-ocaml/libref/Pervasives.html">the <code>|></code> operator</a> to
+            use <a target="blank" href="https://caml.inria.fr/pub/docs/manual-ocaml/libref/Pervasives.html">the <code>|></code> operator</a> to
              chain functions together in a nice way, and it is why {"function "}
              types have so many arrows!
           </p>

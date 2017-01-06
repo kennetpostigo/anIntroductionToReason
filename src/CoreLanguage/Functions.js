@@ -11,7 +11,7 @@ class Functions extends React.Component {
           <h1>Functions</h1>
           <blockquote>
             <p>
-              If you haven't read the <Link to="/corelanguage">Core Language Overview </Link>
+              If you haven't read the <Link to="/anIntroductionToReason/corelanguage">Core Language Overview </Link>
               please do before diving deeper.
             </p>
           </blockquote>
@@ -120,7 +120,8 @@ class Functions extends React.Component {
             time without parentheses we get an error complaining about the types
             passed in. The reason that this happens is that when you define a {'function'}
             with 2 or more parameters and you wrap them in parenthesis it interprets
-            it as a {'function'} that takes a <code><Link to="/corelanguage/tuples">tuple</Link></code> containing 2 or more values. When you call it without parenthesis you
+            it as a {'function'} that takes a <code><Link to="/anIntroductionToReason/corelanguage/tuples">tuple</Link></code> containing
+            2 or more values. When you call it without parenthesis you
             are passing 2 values of type <code>int</code>, but the {'function'}
             is expecting 1 <code>tuple</code> value.
           </p>

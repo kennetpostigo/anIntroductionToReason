@@ -11,7 +11,7 @@ class Objects extends React.Component {
           <h1>Objects</h1>
           <blockquote>
             <p>
-              If you haven't read the <Link to="/corelanguage">Core Language Overview </Link>
+              If you haven't read the <Link to="/anIntroductionToReason/corelanguage">Core Language Overview </Link>
               please do before diving deeper.
             </p>
           </blockquote>

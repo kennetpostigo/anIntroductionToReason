@@ -11,7 +11,7 @@ class Lists extends React.Component {
           <h1>Lists</h1>
           <blockquote>
             <p>
-              If you haven't read the <Link to="/corelanguage">Core Language Overview </Link>
+              If you haven't read the <Link to="/anIntroductionToReason/corelanguage">Core Language Overview </Link>
               please do before diving deeper.
             </p>
           </blockquote>
@@ -171,7 +171,7 @@ class Lists extends React.Component {
           </CodeHighlighter>
           <p>
             There are a lot more operators we won't cover here, but you can find
-            them in the <a href="http://caml.inria.fr/pub/docs/manual-ocaml/libref/List.html">List module</a> of
+            them in the <a target="blank" href="http://caml.inria.fr/pub/docs/manual-ocaml/libref/List.html">List module</a> of
             the OCaml documentation.
           </p>
           <h2>Similar Data Structures</h2>
