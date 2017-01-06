@@ -64,14 +64,14 @@ class Lists extends React.Component {
           </p>
           <CodeHighlighter>
             {
-              `Reason # let number = 5;
-               let number : int = 5
+`Reason # let number = 5;
+ let number : int = 5
 
-               Reason # let numbers = [1, 2, 3, 4];
-               let numbers : list int = [1, 2, 3, 4]
+ Reason # let numbers = [1, 2, 3, 4];
+ let numbers : list int = [1, 2, 3, 4]
 
-               Reason # let numbers = [...numbers, number];
-               Error: Syntax error`
+ Reason # let numbers = [...numbers, number];
+ Error: Syntax error`
             }
           </CodeHighlighter>
           <p>
