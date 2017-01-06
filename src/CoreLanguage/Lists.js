@@ -132,11 +132,11 @@ class Lists extends React.Component {
           </p>
           <CodeHighlighter>
             {
-              `Reason # let numbers = [1, 2, 3, 4, 5];
-               let numbers : list int = [1, 2, 3, 4, 5]
+`Reason # let numbers = [1, 2, 3, 4, 5];
+ let numbers : list int = [1, 2, 3, 4, 5]
 
-               Reason # List.map (fun n => n + 1) numbers;
-               - : list int = [2, 3, 4, 5, 6]`
+ Reason # List.map (fun n => n + 1) numbers;
+ - : list int = [2, 3, 4, 5, 6]`
             }
           </CodeHighlighter>
           <p>
