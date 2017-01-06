@@ -38,15 +38,4 @@ class CodeHighlighter extends PureComponent {
   }
 }
 
-Prism.propTypes = {
-  className: PropTypes.string,
-  language: PropTypes.string,
-  plugins: PropTypes.arrayOf(
-      PropTypes.shape({
-      title: React.PropTypes.string,
-      func: React.PropTypes.func,
-    })
-  ),
-};
-
 export default CodeHighlighter;
