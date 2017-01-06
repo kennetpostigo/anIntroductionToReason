@@ -3,6 +3,7 @@ import Router from 'react-router/BrowserRouter';
 import Match from 'react-router/Match';
 import ReactDOM from 'react-dom';
 import Introduction from './Introduction';
+import GetUpAndRunning from './GetUpAndRunning.js';
 import CoreLanguage from './CoreLanguage/CoreLanguage.js';
 import Functions from './CoreLanguage/Functions.js';
 import Functors from './CoreLanguage/Functors.js';
@@ -23,6 +24,7 @@ ReactDOM.render(
     <div>
       <SideNav></SideNav>
       <Match exactly pattern="/" component={Introduction}/>
+      <Match pattern="/getupandrunning" component={GetUpAndRunning} />
       <Match exactly pattern="/corelanguage" component={CoreLanguage}/>
       <Match pattern="/corelanguage/functions" component={Functions}/>
       <Match pattern="/corelanguage/functors" component={Functors}/>
