@@ -1,0 +1,40 @@
+
+.introBanner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 95vh;
+  background-size: cover;
+  background: #F6F4F4;
+  border-bottom: 1px solid rgb(231, 231, 231);
+}
+.introBanner img {
+  height: 300px;
+  margin: 0;
+  padding: 0;
+}
+.introBanner h1 {
+  font-size: 60px;
+  margin: 0;
+  padding: 0;
+}
+.header {
+  width: 100%;
+}
+.row {
+  display: flex;
+  align-items: center;
+}
+
+.row p {
+  color: #929594;
+  margin: 0px 15px;
+}
+.row a {
+  color: #929594;
+}
+.row :hover a {
+  color: #000;
+}
