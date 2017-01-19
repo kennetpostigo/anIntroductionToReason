@@ -1,5 +1,5 @@
 import React from 'react';
-import Router from 'react-router/BrowserRouter';
+import Router from 'react-router/HashRouter';
 import Match from 'react-router/Match';
 import ReactDOM from 'react-dom';
 import Introduction from './Introduction';
